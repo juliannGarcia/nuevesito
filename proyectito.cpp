@@ -26,8 +26,7 @@ namespace proyectoo
             string rfc = GenerarRFC(nombre, apellido1, apellido2, fechaNacimiento);
             string NombreCompleto = nombre + " " + apellido1 + " " + apellido2;
 
-            
-
+            ///parte2 ventana
             parte2 mostrarRFC = new parte2();
             mostrarRFC.SetRFC(rfc, NombreCompleto);
             mostrarRFC.ShowDialog();
