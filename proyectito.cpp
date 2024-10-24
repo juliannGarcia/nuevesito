@@ -25,8 +25,7 @@ namespace proyectoo
             DateTime fechaNacimiento = dtpFechaDeNacimiento.Value;
             string rfc = GenerarRFC(nombre, apellido1, apellido2, fechaNacimiento);
             string NombreCompleto = nombre + " " + apellido1 + " " + apellido2;
-
-            
+//diseno de la ventana
             parte2 mostrarRFC = new parte2();
             mostrarRFC.SetRFC(rfc, NombreCompleto);
             mostrarRFC.ShowDialog();
