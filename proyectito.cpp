@@ -12,7 +12,7 @@ namespace proyectoo
 
         private string GenerarRFC(string nombre, string apellido1, string apellido2, DateTime fechaNacimiento)
         {
-           
+           ///generar el rfc
             string rfc = apellido1.Substring(0, 2) + apellido2.Substring(0, 1) + nombre.Substring(0, 1) + fechaNacimiento.ToString("yyMMdd");
             return rfc; 
         }
